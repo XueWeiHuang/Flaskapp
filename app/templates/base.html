@@ -10,7 +10,7 @@
         <div>Microblog: <a href="/index">Home</a>
         <a href="/login">Login </a></div>
         <hr>
-        {% with messages= get_flashed_message() %}
+        {% with messages = get_flashed_messages() %}
         {% if messages %}
         <ul>
             {% for message in messages %}
